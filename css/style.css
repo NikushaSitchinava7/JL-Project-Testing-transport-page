@@ -6,7 +6,7 @@
 
 body {
   font-family: "BPG Glaho", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  background-color: rgb(228, 228, 228);
+  background-color: rgb(241, 241, 241);
 }
 
 header {
@@ -82,24 +82,25 @@ header nav .loginsettings {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  padding-right: 5px;
 }
 header nav .loginsettings .lang {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0px 17px;
-  width: 151px;
+  width: 149px;
   background-color: transparent;
   outline: none;
   border-radius: 12px;
   height: 41px;
   border: 1px solid rgb(221, 221, 221);
-  margin-right: 14px;
+  margin-right: 13px;
   cursor: pointer;
 }
 header nav .loginsettings .lang:hover {
   border: 1px solid rgb(163, 162, 173);
-  background-color: rgba(236, 237, 243, 0.747);
+  background-color: rgba(239, 240, 247, 0.747);
 }
 header nav .loginsettings .lang .globe {
   width: 22px;
@@ -124,12 +125,12 @@ header nav .loginsettings .log {
   height: 41px;
   border: 1px solid rgb(221, 221, 221);
   cursor: pointer;
-  margin-right: 14px;
+  margin-right: 13px;
   transition: 0.1s;
 }
 header nav .loginsettings .log:hover {
   border: 1px solid rgb(163, 162, 173);
-  background-color: rgba(236, 237, 243, 0.747);
+  background-color: rgba(239, 240, 247, 0.747);
 }
 header nav .loginsettings .log .user {
   width: 25px;
@@ -150,7 +151,90 @@ header nav .loginsettings .sponsorbtn {
   border-radius: 55px;
   border: 1px solid rgb(221, 221, 221);
   cursor: pointer;
+  transition: 0.1s;
+}
+header nav .loginsettings .sponsorbtn:hover {
+  border: 1px solid #3c74ff;
 }
 header nav .loginsettings .sponsorbtn .sponsorlogo {
   width: 26px;
+}
+
+.tittletransport {
+  font-size: 24px;
+  padding-left: 235px;
+  letter-spacing: 3px;
+  width: 100%;
+  padding-top: 117px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 2.6rem;
+}
+
+.transportcontent {
+  width: 100%;
+  padding-left: 235px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.3rem;
+}
+.transportcontent .card {
+  width: 345px;
+  height: 370px;
+  position: relative;
+}
+.transportcontent .card .imgtrain1 {
+  width: 100%;
+  height: 180px;
+  background-size: cover;
+  background-image: url(./../images/trainimg1.png);
+  border-radius: 17px;
+  margin-bottom: 15px;
+}
+.transportcontent .card .imgtrain2 {
+  width: 100%;
+  height: 180px;
+  background-size: cover;
+  background-image: url(./../images/trainimg2.png);
+  border-radius: 17px;
+  margin-bottom: 15px;
+}
+.transportcontent .card .imgtrain3 {
+  width: 100%;
+  height: 180px;
+  background-size: cover;
+  background-image: url(./../images/trainimg3.png);
+  border-radius: 17px;
+  margin-bottom: 15px;
+}
+.transportcontent .card .imgtrain4 {
+  width: 100%;
+  height: 180px;
+  background-size: cover;
+  background-image: url(./../images/trainimg4.png);
+  border-radius: 17px;
+  margin-bottom: 15px;
+}
+.transportcontent .card .cardtittle {
+  font-size: 16px;
+  font-weight: 300;
+}
+.transportcontent .card .present {
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  height: 33px;
+  width: 33px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(228, 118, 229);
+  padding-top: 1px;
+}
+.transportcontent .card .present img {
+  width: 15px;
 }/*# sourceMappingURL=style.css.map */
