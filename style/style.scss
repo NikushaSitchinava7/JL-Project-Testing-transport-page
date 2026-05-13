@@ -42,6 +42,7 @@ align-items: center;
         justify-content: center;
         align-items: center;
         position: relative;
+        margin-right: 2.5rem;
             #searchbar {
             width: 400px;
             outline: none;
@@ -49,7 +50,7 @@ align-items: center;
             height: 42px;
             border: 1px solid rgb(187, 186, 186);
             padding-left: 18px;
-            font-size: 20px;
+            font-size: 16px;
             display: flex;
             justify-content: center;
             padding-bottom: 2px;
@@ -59,6 +60,7 @@ align-items: center;
                 font-size: 17px;
                 font-weight: 300;
                 font-family: "BPG Glaho", sans-serif;
+                padding-bottom: 8px;
                 }
 
                 &:focus{
@@ -98,7 +100,7 @@ align-items: center;
             margin-right: 14px;
             cursor: pointer;
                 .globe {
-                width: 25px;
+                width: 22px;
                 }
                 .loginsettext {
                 font-size: 15px;
@@ -122,6 +124,7 @@ align-items: center;
             height: 42px;
             border: 1px solid rgb(221, 221, 221);
             cursor: pointer;
+            margin-right: 14px;
                 .user {
                 width: 25px;
                 }
@@ -129,6 +132,22 @@ align-items: center;
                 font-size: 15px;
                 font-family: "BPG Glaho", sans-serif;
                 font-weight: 300;
+                }
+            }
+
+            .sponsorbtn{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 42px;
+            height: 42px;
+            background-color: transparent;
+            outline: none;
+            border-radius: 55px;
+            border: 1px solid rgb(221, 221, 221);
+            cursor: pointer;
+                .sponsorlogo{
+                width: 26px;
                 }
             }
         }

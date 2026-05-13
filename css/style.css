@@ -39,6 +39,7 @@ header nav .wrappersearchbar {
   justify-content: center;
   align-items: center;
   position: relative;
+  margin-right: 2.5rem;
 }
 header nav .wrappersearchbar #searchbar {
   width: 400px;
@@ -47,7 +48,7 @@ header nav .wrappersearchbar #searchbar {
   height: 42px;
   border: 1px solid rgb(187, 186, 186);
   padding-left: 18px;
-  font-size: 20px;
+  font-size: 16px;
   display: flex;
   justify-content: center;
   padding-bottom: 2px;
@@ -58,6 +59,7 @@ header nav .wrappersearchbar #searchbar::placeholder {
   font-size: 17px;
   font-weight: 300;
   font-family: "BPG Glaho", sans-serif;
+  padding-bottom: 8px;
 }
 header nav .wrappersearchbar #searchbar:focus {
   color: black;
@@ -94,7 +96,7 @@ header nav .loginsettings .lang {
   cursor: pointer;
 }
 header nav .loginsettings .lang .globe {
-  width: 25px;
+  width: 22px;
 }
 header nav .loginsettings .lang .loginsettext {
   font-size: 15px;
@@ -116,6 +118,7 @@ header nav .loginsettings .log {
   height: 42px;
   border: 1px solid rgb(221, 221, 221);
   cursor: pointer;
+  margin-right: 14px;
 }
 header nav .loginsettings .log .user {
   width: 25px;
@@ -124,4 +127,19 @@ header nav .loginsettings .log .loginsettext {
   font-size: 15px;
   font-family: "BPG Glaho", sans-serif;
   font-weight: 300;
+}
+header nav .loginsettings .sponsorbtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 42px;
+  height: 42px;
+  background-color: transparent;
+  outline: none;
+  border-radius: 55px;
+  border: 1px solid rgb(221, 221, 221);
+  cursor: pointer;
+}
+header nav .loginsettings .sponsorbtn .sponsorlogo {
+  width: 26px;
 }/*# sourceMappingURL=style.css.map */
