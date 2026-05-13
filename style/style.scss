@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 
-
 body {
     font-family: "BPG Glaho", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
     background-color: rgb(241, 241, 241);
@@ -23,6 +22,8 @@ padding-left: 7.45rem;
 display: flex;
 justify-content: center;
 align-items: center;
+position: sticky;
+top: 0;
     nav {
     width: 87%;
     display: flex;
@@ -196,43 +197,61 @@ flex-wrap: wrap;
 gap: 1.3rem;
     .card {
     width: 345px;
-    height: 370px;
+    height: 244px;
     position: relative;
-        .imgtrain1 {
+        .imagebox {
         width: 100%;
         height: 180px;
         background-size: cover;
-        background-image: url(./../images/trainimg1.png);
         border-radius: 17px;
         margin-bottom: 15px;
+        }
+        .imgtrain1 {
+        background-image: url(./../images/trainimg1.png);
         }
         .imgtrain2 {
-        width: 100%;
-        height: 180px;
-        background-size: cover;
         background-image: url(./../images/trainimg2.png);
-        border-radius: 17px;
-        margin-bottom: 15px;
         }
         .imgtrain3 {
-        width: 100%;
-        height: 180px;
-        background-size: cover;
         background-image: url(./../images/trainimg3.png);
-        border-radius: 17px;
-        margin-bottom: 15px;
         }
         .imgtrain4 {
-        width: 100%;
-        height: 180px;
-        background-size: cover;
         background-image: url(./../images/trainimg4.png);
-        border-radius: 17px;
-        margin-bottom: 15px;
         }
+        .imgtrain5 {
+        background-image: url(./../images/trainimg5.png);
+        }
+        .imgtrain6 {
+        background-image: url(./../images/trainimg6.png);
+        }
+        .imgtrain7 {
+        background-image: url(./../images/trainimg7.png);
+        }
+        .imgtrain8 {
+        background-image: url(./../images/trainimg8.png);
+        }
+        .imgtrain9 {
+        background-image: url(./../images/trainimg9.png);
+        }
+
+
         .cardtittle {
         font-size: 16px;
         font-weight: 300;
+        }
+        .desc{
+        color: rgb(70, 70, 70);
+        padding-top: 5px;
+        font-size: 13px;
+        font-weight: 300;
+        }
+        .price{
+        color: rgb(0, 102, 255);
+        font-size: 16px;
+        font-weight: 300;
+        position: absolute;
+        right: 0px;
+        bottom: 31px;
         }
         .present {
         position: absolute;
@@ -250,5 +269,26 @@ gap: 1.3rem;
             width: 15px;
             }
         }
+    }
+    .card2 {
+    width: 345px;
+    height: 244px;
+    position: relative;
+    margin-top: 35px;
+        .imagebox {
+        width: 100%;
+        height: 180px;
+        background-size: cover;
+        border-radius: 17px;
+        margin-bottom: 15px;
+        }
+        .imgtrain9 {
+        background-image: url(./../images/trainimg9.png);
+        }
+        .cardtittle {
+        font-size: 16px;
+        font-weight: 300;
+        }
+
     }
 }

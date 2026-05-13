@@ -19,6 +19,8 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: sticky;
+  top: 0;
 }
 header nav {
   width: 87%;
@@ -183,44 +185,60 @@ header nav .loginsettings .sponsorbtn .sponsorlogo {
 }
 .transportcontent .card {
   width: 345px;
-  height: 370px;
+  height: 244px;
   position: relative;
 }
-.transportcontent .card .imgtrain1 {
+.transportcontent .card .imagebox {
   width: 100%;
   height: 180px;
   background-size: cover;
-  background-image: url(./../images/trainimg1.png);
   border-radius: 17px;
   margin-bottom: 15px;
+}
+.transportcontent .card .imgtrain1 {
+  background-image: url(./../images/trainimg1.png);
 }
 .transportcontent .card .imgtrain2 {
-  width: 100%;
-  height: 180px;
-  background-size: cover;
   background-image: url(./../images/trainimg2.png);
-  border-radius: 17px;
-  margin-bottom: 15px;
 }
 .transportcontent .card .imgtrain3 {
-  width: 100%;
-  height: 180px;
-  background-size: cover;
   background-image: url(./../images/trainimg3.png);
-  border-radius: 17px;
-  margin-bottom: 15px;
 }
 .transportcontent .card .imgtrain4 {
-  width: 100%;
-  height: 180px;
-  background-size: cover;
   background-image: url(./../images/trainimg4.png);
-  border-radius: 17px;
-  margin-bottom: 15px;
+}
+.transportcontent .card .imgtrain5 {
+  background-image: url(./../images/trainimg5.png);
+}
+.transportcontent .card .imgtrain6 {
+  background-image: url(./../images/trainimg6.png);
+}
+.transportcontent .card .imgtrain7 {
+  background-image: url(./../images/trainimg7.png);
+}
+.transportcontent .card .imgtrain8 {
+  background-image: url(./../images/trainimg8.png);
+}
+.transportcontent .card .imgtrain9 {
+  background-image: url(./../images/trainimg9.png);
 }
 .transportcontent .card .cardtittle {
   font-size: 16px;
   font-weight: 300;
+}
+.transportcontent .card .desc {
+  color: rgb(70, 70, 70);
+  padding-top: 5px;
+  font-size: 13px;
+  font-weight: 300;
+}
+.transportcontent .card .price {
+  color: rgb(0, 102, 255);
+  font-size: 16px;
+  font-weight: 300;
+  position: absolute;
+  right: 0px;
+  bottom: 31px;
 }
 .transportcontent .card .present {
   position: absolute;
@@ -237,4 +255,24 @@ header nav .loginsettings .sponsorbtn .sponsorlogo {
 }
 .transportcontent .card .present img {
   width: 15px;
+}
+.transportcontent .card2 {
+  width: 345px;
+  height: 244px;
+  position: relative;
+  margin-top: 35px;
+}
+.transportcontent .card2 .imagebox {
+  width: 100%;
+  height: 180px;
+  background-size: cover;
+  border-radius: 17px;
+  margin-bottom: 15px;
+}
+.transportcontent .card2 .imgtrain9 {
+  background-image: url(./../images/trainimg9.png);
+}
+.transportcontent .card2 .cardtittle {
+  font-size: 16px;
+  font-weight: 300;
 }/*# sourceMappingURL=style.css.map */
