@@ -15,7 +15,7 @@ header {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
   background-color: white;
-  padding-left: 7.45rem;
+  padding-left: 7.48rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -50,7 +50,7 @@ header nav .wrappersearchbar #searchbar {
   border-radius: 12px;
   height: 41px;
   border: 1px solid rgb(187, 186, 186);
-  padding-left: 18px;
+  padding-left: 19px;
   font-size: 16px;
   display: flex;
   justify-content: center;
@@ -77,21 +77,22 @@ header nav .wrappersearchbar i {
   color: rgb(27, 27, 27) !important;
   font-size: 20px !important;
   position: absolute;
-  right: 20px;
+  right: 21px;
 }
 header nav .loginsettings {
-  width: 50%;
+  width: 51%;
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding-right: 5px;
+  padding-right: 12px;
 }
 header nav .loginsettings .lang {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0px 17px;
-  width: 149px;
+  padding-right: 17px;
+  padding-left: 13px;
+  width: 148px;
   background-color: transparent;
   outline: none;
   border-radius: 12px;
@@ -119,8 +120,9 @@ header nav .loginsettings .log {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0px 17px;
-  width: 120px;
+  padding-right: 17px;
+  padding-left: 13px;
+  width: 118px;
   background-color: transparent;
   outline: none;
   border-radius: 12px;
