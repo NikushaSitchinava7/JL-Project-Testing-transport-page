@@ -1,5 +1,6 @@
 const categorybar = document.querySelector(".category");
 const cards = document.querySelectorAll(".card");
+const imgboxes = document.querySelectorAll(".imagebox");
 let scrollposition = 0;
 
 

@@ -6,7 +6,7 @@
 
 body {
   font-family: "BPG Glaho", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  background-color: rgb(241, 241, 241);
+  background-color: rgba(241, 241, 241, 0.815);
   padding-top: 168px;
 }
 body::-webkit-scrollbar {
@@ -195,6 +195,33 @@ header nav .loginsettings .sponsorbtn .sponsorlogo {
   width: 100%;
   height: 41px;
   background-color: #CFE4FF;
+  display: flex;
+  align-items: center;
+  padding-left: 235px;
+}
+.newver .siaxle {
+  font-size: 12px;
+  background-color: rgb(255, 0, 95);
+  color: white;
+  font-weight: 300;
+  display: inline-block;
+  padding: 3px 7px;
+  border-radius: 15px;
+  margin-right: 8px;
+}
+.newver .gadasvla {
+  font-size: 14px;
+  font-weight: 300;
+  text-decoration: none;
+  color: rgb(29, 29, 29);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  outline: none;
+}
+.newver .gadasvla img {
+  margin-left: 10px;
+  width: 15px;
 }
 
 .tittletransport {
@@ -217,14 +244,13 @@ header nav .loginsettings .sponsorbtn .sponsorlogo {
   align-items: center;
   flex-wrap: wrap;
   gap: 1.3rem;
-  margin-bottom: 13px;
+  margin-bottom: 285px;
 }
 .transportcontent .card {
   width: 345px;
   height: 244px;
   position: relative;
   cursor: pointer;
-  transition: 0.5s;
 }
 .transportcontent .card .imagebox {
   width: 100%;
@@ -234,35 +260,32 @@ header nav .loginsettings .sponsorbtn .sponsorlogo {
   margin-bottom: 15px;
   background-position: center;
 }
-.transportcontent .card.hovered .imagebox {
+.transportcontent .card:hover .imagebox {
   background-size: 103%;
 }
 .transportcontent .card .imgtrain1 {
-  background-image: url(./../images/trainimg1.png);
+  background-image: url(./../images/transportimg1.png);
 }
 .transportcontent .card .imgtrain2 {
-  background-image: url(./../images/trainimg2.png);
+  background-image: url(./../images/transportimg2.png);
 }
 .transportcontent .card .imgtrain3 {
-  background-image: url(./../images/trainimg3.png);
+  background-image: url(./../images/transportimg3.png);
 }
 .transportcontent .card .imgtrain4 {
-  background-image: url(./../images/trainimg4.png);
+  background-image: url(./../images/transportimg4.png);
 }
 .transportcontent .card .imgtrain5 {
-  background-image: url(./../images/trainimg5.png);
+  background-image: url(./../images/transportimg5.png);
 }
 .transportcontent .card .imgtrain6 {
-  background-image: url(./../images/trainimg6.png);
+  background-image: url(./../images/transportimg6.png);
 }
 .transportcontent .card .imgtrain7 {
-  background-image: url(./../images/trainimg7.png);
+  background-image: url(./../images/transportimg7.png);
 }
 .transportcontent .card .imgtrain8 {
-  background-image: url(./../images/trainimg8.png);
-}
-.transportcontent .card .imgtrain9 {
-  background-image: url(./../images/trainimg9.png);
+  background-image: url(./../images/transportimg8.png);
 }
 .transportcontent .card .cardtittle {
   font-size: 16px;
@@ -300,26 +323,6 @@ header nav .loginsettings .sponsorbtn .sponsorlogo {
 }
 .transportcontent .card.hovered .cardtittle {
   color: #3c74ff;
-}
-.transportcontent .card2 {
-  width: 345px;
-  height: 244px;
-  position: relative;
-  margin-top: 35px;
-}
-.transportcontent .card2 .imagebox {
-  width: 100%;
-  height: 180px;
-  background-size: cover;
-  border-radius: 17px;
-  margin-bottom: 15px;
-}
-.transportcontent .card2 .imgtrain9 {
-  background-image: url(./../images/trainimg9.png);
-}
-.transportcontent .card2 .cardtittle {
-  font-size: 16px;
-  font-weight: 300;
 }
 
 .footerdiv {

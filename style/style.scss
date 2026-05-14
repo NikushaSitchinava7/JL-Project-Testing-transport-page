@@ -6,7 +6,7 @@
 
 body {
 font-family: "BPG Glaho", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-background-color: rgb(241, 241, 241);
+background-color: rgba(241, 241, 241, 0.815);
 padding-top: 168px;
     &::-webkit-scrollbar {
     width: 8px;
@@ -210,6 +210,33 @@ box-shadow: 0px -10px 25px 1px rgba(0, 0, 0, 0.185);
 width: 100%;
 height: 41px;
 background-color: #CFE4FF;
+display: flex;
+align-items: center;
+padding-left: 235px;
+    .siaxle{
+    font-size: 12px;
+    background-color: rgb(255 0 95);
+    color: white;
+    font-weight: 300;
+    display: inline-block;
+    padding: 3px 7px;
+    border-radius: 15px;
+    margin-right: 8px;
+    }
+    .gadasvla{
+    font-size: 14px;
+    font-weight: 300;
+    text-decoration: none;
+    color: rgb(29, 29, 29);
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    outline: none;
+        img {
+        margin-left: 10px;
+        width: 15px;
+        }
+    }
 }
 .tittletransport {
 font-size: 24px;
@@ -232,13 +259,12 @@ justify-content: flex-start;
 align-items: center;
 flex-wrap: wrap;
 gap: 1.3rem;
-margin-bottom: 13px;
+margin-bottom: 285px;
     .card {
     width: 345px;
     height: 244px;
     position: relative;
     cursor: pointer;
-    transition: 0.5s;
         .imagebox {
         width: 100%;
         height: 180px;
@@ -248,8 +274,8 @@ margin-bottom: 13px;
         background-position: center;
         }
 
-        &.hovered {
-            .imagebox {
+        &:hover {
+            .imagebox{
             background-size: 103%;
             }
         }
@@ -257,31 +283,28 @@ margin-bottom: 13px;
 
         // fotoebis kodi
         .imgtrain1 {
-        background-image: url(./../images/trainimg1.png);
+        background-image: url(./../images/transportimg1.png);
         }
         .imgtrain2 {
-        background-image: url(./../images/trainimg2.png);
+        background-image: url(./../images/transportimg2.png);
         }
         .imgtrain3 {
-        background-image: url(./../images/trainimg3.png);
+        background-image: url(./../images/transportimg3.png);
         }
         .imgtrain4 {
-        background-image: url(./../images/trainimg4.png);
+        background-image: url(./../images/transportimg4.png);
         }
         .imgtrain5 {
-        background-image: url(./../images/trainimg5.png);
+        background-image: url(./../images/transportimg5.png);
         }
         .imgtrain6 {
-        background-image: url(./../images/trainimg6.png);
+        background-image: url(./../images/transportimg6.png);
         }
         .imgtrain7 {
-        background-image: url(./../images/trainimg7.png);
+        background-image: url(./../images/transportimg7.png);
         }
         .imgtrain8 {
-        background-image: url(./../images/trainimg8.png);
-        }
-        .imgtrain9 {
-        background-image: url(./../images/trainimg9.png);
+        background-image: url(./../images/transportimg8.png);
         }
 
 
@@ -324,27 +347,6 @@ margin-bottom: 13px;
             color: #3c74ff;
             }
         }
-    }
-    .card2 {
-    width: 345px;
-    height: 244px;
-    position: relative;
-    margin-top: 35px;
-        .imagebox {
-        width: 100%;
-        height: 180px;
-        background-size: cover;
-        border-radius: 17px;
-        margin-bottom: 15px;
-        }
-        .imgtrain9 {
-        background-image: url(./../images/trainimg9.png);
-        }
-        .cardtittle {
-        font-size: 16px;
-        font-weight: 300;
-        }
-
     }
 }
 
