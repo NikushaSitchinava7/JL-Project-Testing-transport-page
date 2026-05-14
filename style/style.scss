@@ -396,7 +396,7 @@ align-items: center;
     padding-left: 235px;
     padding-right: 235px;
     padding-top: 55px;
-    padding-bottom: 55px;
+    padding-bottom: 48px;
     display: flex;
     justify-content: space-between;
     align-items: start;
@@ -418,7 +418,7 @@ align-items: center;
                 text-decoration: none;
                 margin-bottom: 12px;
                     &.emptyspace{
-                    margin-top: 35px;
+                    padding-top: 35px;
                     }
 
                     &:hover {
@@ -430,6 +430,41 @@ align-items: center;
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
+                padding-top: 5px;
+                    .faceblink {
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 50px;
+                    background-color: #eff4ff;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-right: 14px;
+                        &:hover {
+                        background-color: #d1d4dd;
+                        }
+
+                        img{
+                        width: 17px;
+                        }
+                    }
+
+                    .instalink {
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 50px;
+                    background-color: #eff4ff;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                        &:hover {
+                        background-color: #d1d4dd;
+                        }
+
+                        img{
+                        width: 23px;
+                        }
+                    }
                 }
             }
         }

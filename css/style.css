@@ -367,7 +367,7 @@ header nav .loginsettings .sponsorbtn .sponsorlogo {
   padding-left: 235px;
   padding-right: 235px;
   padding-top: 55px;
-  padding-bottom: 55px;
+  padding-bottom: 48px;
   display: flex;
   justify-content: space-between;
   align-items: start;
@@ -392,7 +392,7 @@ header nav .loginsettings .sponsorbtn .sponsorlogo {
   margin-bottom: 12px;
 }
 .footerdiv .shuafooter .listebi li .desclink.emptyspace {
-  margin-top: 35px;
+  padding-top: 35px;
 }
 .footerdiv .shuafooter .listebi li .desclink:hover {
   color: rgb(68, 68, 68);
@@ -401,6 +401,38 @@ header nav .loginsettings .sponsorbtn .sponsorlogo {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 5px;
+}
+.footerdiv .shuafooter .listebi li .linkstofaceinsta .faceblink {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  background-color: #eff4ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 14px;
+}
+.footerdiv .shuafooter .listebi li .linkstofaceinsta .faceblink:hover {
+  background-color: #d1d4dd;
+}
+.footerdiv .shuafooter .listebi li .linkstofaceinsta .faceblink img {
+  width: 17px;
+}
+.footerdiv .shuafooter .listebi li .linkstofaceinsta .instalink {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  background-color: #eff4ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footerdiv .shuafooter .listebi li .linkstofaceinsta .instalink:hover {
+  background-color: #d1d4dd;
+}
+.footerdiv .shuafooter .listebi li .linkstofaceinsta .instalink img {
+  width: 23px;
 }
 .footerdiv hr {
   width: 100%;
