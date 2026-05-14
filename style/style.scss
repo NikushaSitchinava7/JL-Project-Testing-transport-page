@@ -1,11 +1,8 @@
-* {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
+@import "./reset";
+@import "./fonts";
 
 body {
-font-family: "BPG Glaho", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+font-family: $georgian1, $english;
 background-color: rgba(241, 241, 241, 0.815);
 padding-top: 168px;
     &::-webkit-scrollbar {
@@ -268,10 +265,12 @@ margin-bottom: 285px;
         .imagebox {
         width: 100%;
         height: 180px;
-        background-size: cover;
+        background-size: 100%;
+        background-position: center;
         border-radius: 17px;
         margin-bottom: 15px;
-        background-position: center;
+
+        transition: background-size .3s cubic-bezier(0,0,.2,1);
         }
 
         &:hover {
@@ -540,15 +539,20 @@ align-items: center;
         justify-content: space-between;
         padding-top: 2px;
         padding-right: 75px;
-            .btntnet {
-            width: 142px;
-            margin-right: 13px;
-            cursor: pointer;
-            opacity: 100%;
-            transition: 0.3s;
-            outline: none;
-                &:hover {
-                opacity: 65%;
+            .buttonftr {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+                .btntnet {
+                width: 142px;
+                margin-right: 13px;
+                cursor: pointer;
+                opacity: 100%;
+                transition: 0.3s;
+                outline: none;
+                    &:hover {
+                    opacity: 65%;
+                    }
                 }
             }
 

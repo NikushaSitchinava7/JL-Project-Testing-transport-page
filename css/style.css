@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: "BPG Glaho", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-family: "BPG Glaho", sans-serif;
   background-color: rgba(241, 241, 241, 0.815);
   padding-top: 168px;
 }
@@ -255,10 +255,11 @@ header nav .loginsettings .sponsorbtn .sponsorlogo {
 .transportcontent .card .imagebox {
   width: 100%;
   height: 180px;
-  background-size: cover;
+  background-size: 100%;
+  background-position: center;
   border-radius: 17px;
   margin-bottom: 15px;
-  background-position: center;
+  transition: background-size 0.3s cubic-bezier(0, 0, 0.2, 1);
 }
 .transportcontent .card:hover .imagebox {
   background-size: 103%;
@@ -503,7 +504,12 @@ header nav .loginsettings .sponsorbtn .sponsorlogo {
   padding-top: 2px;
   padding-right: 75px;
 }
-.footerdiv .bottomofthefooter .bottomhalff .btntnet {
+.footerdiv .bottomofthefooter .bottomhalff .buttonftr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footerdiv .bottomofthefooter .bottomhalff .buttonftr .btntnet {
   width: 142px;
   margin-right: 13px;
   cursor: pointer;
@@ -511,7 +517,7 @@ header nav .loginsettings .sponsorbtn .sponsorlogo {
   transition: 0.3s;
   outline: none;
 }
-.footerdiv .bottomofthefooter .bottomhalff .btntnet:hover {
+.footerdiv .bottomofthefooter .bottomhalff .buttonftr .btntnet:hover {
   opacity: 65%;
 }
 .footerdiv .bottomofthefooter .bottomhalff .footerlastlinks {
