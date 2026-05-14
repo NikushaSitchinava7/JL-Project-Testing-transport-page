@@ -347,6 +347,7 @@ header nav .loginsettings .sponsorbtn .sponsorlogo {
   justify-content: flex-start;
   align-items: center;
   text-decoration: none;
+  outline: none;
 }
 .footerdiv .topofthefooter .sponsorapplegooglelink img {
   width: 113px;
@@ -361,9 +362,49 @@ header nav .loginsettings .sponsorbtn .sponsorlogo {
   color: rgb(44, 44, 44);
   font-weight: 200;
 }
+.footerdiv .shuafooter {
+  width: 100%;
+  padding-left: 235px;
+  padding-right: 235px;
+  padding-top: 55px;
+  padding-bottom: 55px;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+.footerdiv .shuafooter .listebi {
+  list-style-type: none;
+}
+.footerdiv .shuafooter .listebi li {
+  display: flex;
+}
+.footerdiv .shuafooter .listebi li .listtittle {
+  font-size: 20px;
+  color: rgb(20, 20, 20);
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+.footerdiv .shuafooter .listebi li .desclink {
+  font-size: 16px;
+  color: rgb(138, 138, 138);
+  font-weight: 100;
+  text-decoration: none;
+  margin-bottom: 12px;
+}
+.footerdiv .shuafooter .listebi li .desclink.emptyspace {
+  margin-top: 35px;
+}
+.footerdiv .shuafooter .listebi li .desclink:hover {
+  color: rgb(68, 68, 68);
+}
+.footerdiv .shuafooter .listebi li .linkstofaceinsta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .footerdiv hr {
   width: 100%;
   height: 1px;
   border: none;
-  background-color: rgb(230, 230, 230);
+  background-color: rgba(222, 233, 238, 0.705);
 }/*# sourceMappingURL=style.css.map */
