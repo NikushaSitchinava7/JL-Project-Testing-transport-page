@@ -283,28 +283,28 @@ margin-bottom: 285px;
 
         // fotoebis kodi
         .imgtrain1 {
-        background-image: url(./../images/transportimg1.png);
+        background-image: url(./../images/trimg1.png);
         }
         .imgtrain2 {
-        background-image: url(./../images/transportimg2.png);
+        background-image: url(./../images/trimg2.png);
         }
         .imgtrain3 {
-        background-image: url(./../images/transportimg3.png);
+        background-image: url(./../images/trimg3.png);
         }
         .imgtrain4 {
-        background-image: url(./../images/transportimg4.png);
+        background-image: url(./../images/trimg4.png);
         }
         .imgtrain5 {
-        background-image: url(./../images/transportimg5.png);
+        background-image: url(./../images/trimg5.png);
         }
         .imgtrain6 {
-        background-image: url(./../images/transportimg6.png);
+        background-image: url(./../images/trimg6.png);
         }
         .imgtrain7 {
-        background-image: url(./../images/transportimg7.png);
+        background-image: url(./../images/trimg7.png);
         }
         .imgtrain8 {
-        background-image: url(./../images/transportimg8.png);
+        background-image: url(./../images/trimg8.png);
         }
 
 
@@ -413,7 +413,7 @@ align-items: center;
 
                 .desclink {
                 font-size: 16px;
-                color: rgb(138, 138, 138);
+                color: rgb(131, 131, 143);
                 font-weight: 100;
                 text-decoration: none;
                 margin-bottom: 12px;
@@ -422,7 +422,7 @@ align-items: center;
                     }
 
                     &:hover {
-                    color: rgb(68, 68, 68);
+                    color: rgb(60, 61, 70);
                     }
                 }
 
@@ -465,6 +465,111 @@ align-items: center;
                         width: 23px;
                         }
                     }
+                }
+            }
+        }
+    }
+
+    .bottomofthefooter{
+    width: 100%;
+    padding-left: 235px;
+    padding-right: 224px;
+    padding-top: 20px;
+    padding-bottom: 39px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+        .tophalff {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 25px;
+            .footerlinksbottom{
+            display: flex;
+            justify-content: space-between;
+            width: 71%;
+                .footera {
+                color: rgb(131, 131, 143);
+                font-weight: 300;
+                font-size: 15px;
+                }
+            }
+
+            .lang {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-right: 17px;
+            padding-left: 13px;
+            width: 148px;
+            background-color: transparent;
+            outline: none;
+            border-radius: 12px;
+            height: 41px;
+            border: 1px solid rgb(221, 221, 221);
+            margin-right: 13px;
+            cursor: pointer;
+                &:hover{
+                border: 1px solid rgb(163, 162, 173);
+                background-color: rgba(239, 240, 247, 0.747);
+                }
+
+                .globe {
+                width: 22px;
+                }
+                .loginsettext {
+                font-size: 15px;
+                font-family: "BPG Glaho", sans-serif;
+                font-weight: 300;
+                }
+                .dropdown {
+                width: 10px;
+                }
+            }
+        }
+
+        .bottomhalff{
+        width: 100%;
+        height: 65px;
+        border: 1px solid #e8ebf3;
+        border-radius: 55px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 2px;
+        padding-right: 75px;
+            .btntnet {
+            width: 142px;
+            margin-right: 13px;
+            cursor: pointer;
+            opacity: 100%;
+            transition: 0.3s;
+            outline: none;
+                &:hover {
+                opacity: 65%;
+                }
+            }
+
+            .footerlastlinks {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 90px;
+            opacity: 100%;
+            transition: 0.2s;
+                &:hover {
+                opacity: 65%;
+                }
+                .myautosizes {
+                width: 68px;
+                }
+                .mainlogo {
+                width: 85px;
+                }
+                .lasttwologo{
+                width: 50px;
                 }
             }
         }
